@@ -1,0 +1,38 @@
+<html>
+
+<body>
+  <div class="container">
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+    <div class="thumbnail"></div>
+  </div>
+</body>
+<style>
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      justify-content: space-around;
+    }
+  }
+
+  .thumbnail {
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+  }
+</style>
+
+</html>
